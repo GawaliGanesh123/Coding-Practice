@@ -1,45 +1,34 @@
-
 #include<stdio.h>
-  
- int DivisibleByFive(int iNo)
-  {
-    int iAns=0;
-     
-     iAns= iNo%5;
+#include<stdbool.h>
 
-     if(iAns == 0)
-     {
-       return 1;
-     }
+bool DivisibleByThreeAndFive(int iNo)
+{
+   if((iNo%3==0)&&(iNo%5==0))
+   {
+   	return true;  //true means 1
+   }
+   else
+   {
+   	return false;  // false means 0
+   }
+}
 
-    else
-    {
-      return 0;
-    }
-
-  }
-  
 int main()
 {
-  int iValue=0;
-  int iRet=0;
-  
+   int iValue=0;
+   bool bRet=false;
+   printf("Enter Number:\n");
+   scanf("%d",&iValue);
 
-
-  printf("Enter the number:\n");
-  scanf("%d",&iValue);
-
-   iRet=DivisibleByFive(iValue);
-
-   if(iRet == 1)
+   bRet=DivisibleByThreeAndFive(iValue);
+   if(bRet==true)
    {
-    printf("Number is Divisible By Five:\n",iValue);
+   	 printf("Number is divisible by 3 and 5 \n");
    }
-    else
-    {
-      printf("Number is Not Divisible By Five:\n",iValue);
-    }
+   else
+   {
+   	printf("Number is not divisible by 3 and 5 \n");
+   }
 
-
-   return 0;
+	return 0;
 }

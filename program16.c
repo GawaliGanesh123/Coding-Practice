@@ -1,24 +1,19 @@
+//writing program using for loop iteration
+
 #include<stdio.h>
+ 
+ void Display()
+ {
+ 	int iCnt=0;
 
-void print(int iValue)
-{
-	int iCnt=0;
-
-	for(iCnt=1; iCnt<=iValue; iCnt++)
-	{
-	  printf("\nGanesh Gawali......\n");
-	}
-}
-
+ 	for(iCnt=1; iCnt<=5; iCnt++)
+ 	{
+ 		printf("Jay Ganesh....\n");
+ 	}
+ }
 int main()
 {
-	int iNo=0;
 
-	printf("Enter the Number:\n");
-	scanf("%d",&iNo);
-
-	print(iNo);
-
-
+  Display();
 	return 0;
 }

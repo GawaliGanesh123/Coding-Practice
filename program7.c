@@ -1,30 +1,20 @@
 #include<stdio.h>
 
-int Multiplication(int iNo1, int iNo2)
+int Multiplication(int iValue1, int iValue2)
 {
 	int iAns=0;
 
-	iAns= iNo1 * iNo2;
-
-	return iAns;
+	iMult=iValue1*iValue2;
 }
+
+
 int main()
 {
-	int iValue1=0;
-	int iValue2=0;
-	int iRet=0;
+	int iNo1=0;
+	int iNo2=0;
+	int iMult=0;
 
-	printf("Enter First Number:\n");
-	scanf("%d",&iValue1);
-
-	printf("Enter Second Number:\n");
-	scanf("%d",&iValue2);
-
-	iRet=Multiplication(iValue1, iValue2);
-
-	printf("Multiplication is:%d\n",iRet);
-
-
+	Multiplication()
 
 	return 0;
 }
