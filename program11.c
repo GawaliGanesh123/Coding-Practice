@@ -38,6 +38,5 @@ int main()
       printf("Number is Not Divisible By Three and Five:\n",iValue);
     }
 
-
    return 0;
 }
