@@ -22,8 +22,7 @@ int main()
   printf("Enter the number:\n");
   scanf("%d",&iValue);
 
-  DisplayReverse(iValue);
-
+  DisplayReverse(iValue);
 	
 	return 0;
 }
