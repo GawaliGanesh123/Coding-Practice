@@ -49,13 +49,6 @@ Result = Result * 2;
 
 
 
-
-
-
-
-
-
-
 iSum = 4 + 6 + 3 + 1 + 2
 iSum = 0;
 
