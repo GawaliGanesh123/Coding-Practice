@@ -42,6 +42,5 @@ int main()
     {
         printf("Digit 8 is not present in number\n");
     }
-
     return 0;
 }
