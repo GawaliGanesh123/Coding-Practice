@@ -9,8 +9,6 @@ void ReverseofNumber(int iNo)
 
 	for(iCnt=iNo; iCnt>=1; iCnt--)
 	{
-		
-
 		printf("%d\n",iCnt);
 	}
     
