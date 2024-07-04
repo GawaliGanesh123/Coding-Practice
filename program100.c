@@ -17,6 +17,7 @@ void Display(int iNo)
     printf("\n");
 }
 
+
 int main()
 {
     int iFrequency = 0;
