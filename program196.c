@@ -23,6 +23,7 @@ int main()
     printf("Enter second string : \n");
     scanf(" %[^'\n']s",Brr);
 
+    
     bRet = strcmpX(Arr,Brr);    // strcmpX(100,200);
 
     if(bRet == true)
