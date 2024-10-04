@@ -11,6 +11,7 @@ bool strcmpX(char *str1, char *str2)
     return((*str1 == '\0') && (*str2 == '\0'));
 }
 
+
 int main()
 {
     char Arr[20];
