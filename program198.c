@@ -21,6 +21,7 @@ int main()
 
     bRet = strcmpX(Arr,Brr);    // strcmpX(100,200);
 
+    
     if(bRet == true)
     {
         printf("Both the strings are identical\n");
