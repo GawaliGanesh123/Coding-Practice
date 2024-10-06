@@ -35,6 +35,7 @@ bool CheckPallindrome(char *str)
     }
 }
 
+
 int main()
 {
     char Arr[20];
