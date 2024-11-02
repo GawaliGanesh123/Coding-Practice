@@ -16,6 +16,7 @@ class Number
             cin>>iNo2;
         }
 
+
         int Maximum()
         {
             if(iNo1 > iNo2)
