@@ -19,6 +19,7 @@ class Number
             }
         }
 };
+
  
 int main()
 {   
