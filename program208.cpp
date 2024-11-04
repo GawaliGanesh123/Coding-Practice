@@ -13,6 +13,7 @@ class Number
             iNo2 = Y;
         }
 
+
         int Maximum()
         {
             if(iNo1 > iNo2)
