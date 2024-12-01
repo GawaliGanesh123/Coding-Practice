@@ -8,7 +8,7 @@ class Number
         int iNo2;
 
         void Accept()
-        {
+        { 
             cout<<"Enter first number : "<<"\n";
             cin>>iNo1;
        
