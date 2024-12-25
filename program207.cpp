@@ -6,7 +6,7 @@ class Number
     public:
         int iNo1;
         int iNo2;
- 
+  
         void Accept() 
         { 
             cout<<"Enter first number : "<<"\n";
