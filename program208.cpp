@@ -11,7 +11,7 @@ class Number
         {
             iNo1 = X; 
             iNo2 = Y; 
-        }   
+        }    
  
  
         int Maximum() 
