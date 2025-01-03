@@ -25,7 +25,7 @@ class Number
                 return iNo2;
             }
         }
-};
+}; 
 
  
 
