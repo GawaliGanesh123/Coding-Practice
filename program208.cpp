@@ -27,7 +27,7 @@ class Number
         }
 }; 
 
- 
+  
  
 int main()
 {   
