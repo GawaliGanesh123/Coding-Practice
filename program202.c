@@ -2,7 +2,7 @@
 #include<stdbool.h>
 
 bool CheckPallindrome(char *str)
-{
+{ 
     char *start = NULL;
     char *end = NULL;
 
