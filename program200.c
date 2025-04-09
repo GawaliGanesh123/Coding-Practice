@@ -4,7 +4,7 @@ void strrevX(char *str)
 {
     char *start = NULL;
     char *end = NULL;
-    char temp = '\0';
+    char temp = '\0'; 
 
     start = str;
     end = str;
