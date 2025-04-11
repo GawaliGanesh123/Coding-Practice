@@ -11,7 +11,7 @@ class Number
         { 
             cout<<"Enter first number : "<<"\n";
             cin>>iNo1; 
-       
+        
             cout<<"Enter second number : "<<"\n";
             cin>>iNo2;
         } 
