@@ -7,7 +7,7 @@ class Number
         int iNo1; 
         int iNo2;
 
-        int Maximum()
+        int Maximum() 
         {
             if(iNo1 > iNo2)
             {
