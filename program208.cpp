@@ -15,7 +15,7 @@ class Number
        
      
         int Maximum() 
-        {
+        { 
             if(iNo1 > iNo2)
             { 
                 return iNo1;
