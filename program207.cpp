@@ -13,7 +13,7 @@ class Number
             cin>>iNo1; 
          
             cout<<"Enter second number : "<<"\n";
-            cin>>iNo2; 
+            cin>>iNo2;  
         } 
 
         int Maximum()
