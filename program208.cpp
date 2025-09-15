@@ -9,7 +9,7 @@ class Number
   
         Number(int X, int Y)     
         {
-            iNo1 = X;    
+            iNo1 = X;     
             iNo2 = Y;  
         }      
        
