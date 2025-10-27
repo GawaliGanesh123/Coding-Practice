@@ -4,9 +4,9 @@ using namespace std;
 
 class Number 
 {
-    public:   
+    public:    
         int iNo1;         
-        int iNo2;         
+        int iNo2;          
      
         Number(int X, int Y)          
         {       
