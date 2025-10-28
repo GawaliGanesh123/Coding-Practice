@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std; 
 
-class Number 
+class Number  
 {
     public:    
         int iNo1;          
