@@ -8,7 +8,7 @@ class Number
         int iNo1;          
         int iNo2;            
 
-     
+      
         Number(int X, int Y)          
         {       
             iNo1 = X;         
