@@ -6,7 +6,7 @@ class Number
 {       
   
     public:       
-        int iNo1;           
+        int iNo1;            
         int iNo2;              
    
       
